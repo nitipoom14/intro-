@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>มจพ. ปราจีนบุรี</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header>
+    <div class="wrap">
+      <a class="logo" href="#home">
+        <!-- เปลี่ยนชื่อไฟล์ logo.png เป็นชื่อไฟล์โลโก้ของคุณ -->
+        <img src="image/logo.png" alt="โลโก้ มจพ." style="height: 60px; width: auto;">
+        
+        <span><b>มจพ. ปราจีนบุรี</b><small>KMUTNB PRACHINBURI</small></span>
+      </a>
+
+      <nav>
+        <a href="#home" data-n="home">หน้าหลัก</a>
+        <a href="#courses" data-n="courses">หลักสูตร</a>
+        <a href="#apply" data-n="apply">สมัครเรียน</a>
+        <a href="#home">ติดต่อเรา</a>
+      </nav>
+
+      <div class="tel">
+        <span>สอบถามเพิ่มเติม: 037-217-300</span>
+        <div class="auth" id="authArea"></div>
+        <a class="btn" href="#apply">สมัครเรียน TCAS70</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= HOME ================= -->
+    <div class="page" id="home">
+      <div class="hero">
+        <div class="wrap">
+          <div class="tag">ADMISSIONS 2027</div>
+          <h1>เปิดรับสมัครนักศึกษาใหม่<br>ประจำปีการศึกษา 2570</h1>
+          <p>ก้าวสู่ครอบครัว "แสด-ดำ" ที่ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ วิทยาเขตปราจีนบุรี พื้นที่สร้างคนพันธุ์ใหม่ด้านนวัตกรรมและเทคโนโลยี เติมเต็มทักษะด้วยห้องแล็บมาตรฐานระดับสากล พร้อมเปิดประตูสู่อนาคตการทำงานในนิคมอุตสาหกรรมชั้นนำของภาคตะวันออก</p>
+          <a class="btn" href="#apply">สมัครเรียนตอนนี้</a>
+          <a class="btn ghost" href="#courses">ดูรายละเอียดหลักสูตร</a>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="wrap">
+          <div><b>3</b><span>คณะวิชา</span></div>
+          <div><b>15</b><span>หลักสูตรที่เปิดสอน</span></div>
+          <div><b>5,000+</b><span>นักศึกษาร่วมแคมปัส</span></div>
+          <div><b>95%</b><span>อัตราการมีงานทำหลังจบ</span></div>
+        </div>
+      </div>
+
+      <section>
+        <div class="wrap">
+          <div class="eyebrow">Departments</div>
+          <h2 class="t">คณะวิชาที่เปิดสอน</h2>
+          <p class="sub">พบกับหลักสูตรวิชาที่หลากหลายและสอดคล้องกับความต้องการของตลาดงานเทคโนโลยีขั้นสูงและนวัตกรรมในปัจจุบัน</p>
+          <div class="grid2" id="dept"></div>
+        </div>
+      </section>
+
+      <section class="gray">
+        <div class="wrap">
+          <div class="eyebrow">Admission Timeline</div>
+          <h2 class="t">กำหนดการรับสมัคร</h2>
+          <div class="tl">
+            <div class="st cur"><i>1</i><div class="d">1 ก.ย. - 10 พ.ย. 2569</div><b>เปิดรับสมัครออนไลน์</b></div>
+            <div class="st"><i>2</i><div class="d">28 พ.ย. 2569</div><b>สอบสัมภาษณ์ออนไลน์</b></div>
+            <div class="st"><i>3</i><div class="d">8 ธ.ค. 2569</div><b>ประกาศรายชื่อผู้ผ่านการคัดเลือก</b></div>
+            <div class="st"><i>4</i><div class="d">10 - 11 มี.ค. 2570</div><b>Clearing House (ป.ตรี 4 ปี)</b></div>
+            <div class="st"><i>5</i><div class="d">16 - 22 มี.ค. 2570</div><b>ชำระค่าธรรมเนียมและค่าบำรุงการศึกษา</b></div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="eyebrow">Scholarships</div>
+          <h2 class="t">ทุนการศึกษาและทุนสนับสนุน</h2>
+          <div class="sch">
+            <div class="card">
+              <span class="pill">เกรดเฉลี่ยสะสม 3.50+</span>
+              <h3>ทุนการศึกษาเรียนดีเด่น</h3>
+              <p>สนับสนุนเต็มจำนวนสำหรับผู้มีคะแนนผลการเรียน GPAX สะสมสูงสุดในรอบแอดมิชชั่น รับการยกเว้นค่าหน่วยกิตและค่าบำรุงการศึกษา</p>
+            </div>
+            <div class="card">
+              <span class="pill">ตัวแทนเขต/ทีมชาติ</span>
+              <h3>ทุนส่งเสริมศักยภาพด้านกีฬา</h3>
+              <p>มอบโควตาและทุนอุดหนุนช่วยเหลือผู้ที่มีความโดดเด่นทางกีฬาในระดับจังหวัดและระดับชาติ เพื่อการศึกษาต่อระดับอุดมศึกษา</p>
+            </div>
+            <div class="card">
+              <span class="pill">ช่วยเหลือสูงสุด 100,000 บ.</span>
+              <h3>ทุนขาดแคลนทุนทรัพย์</h3>
+              <p>ช่วยเหลือค่าครองชีพรายเดือนและค่าบำรุงการศึกษาแก่นักศึกษาที่ขาดแคลนปัจจัยสนับสนุน เพื่อรับประกันโอกาสทางการศึกษาที่เท่าเทียม</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gray">
+        <div class="wrap">
+          <div class="eyebrow">News &amp; Events</div>
+          <h2 class="t">ข่าวสารและประกาศสำคัญ</h2>
+          <div class="news">
+            <div class="card"><div class="img" style="background-image: url('image/1.png'); background-size: contain; background-position: center; background-repeat: no-repeat;"></div><div class="b"><small><em>ประชาสัมพันธ์</em> • 04 ต.ค. 2569</small><h3>มจพ. ปราจีนบุรี เปิดบ้านต้อนรับนักเรียนชั้นมัธยมปลายในงาน Open House ประจำปี</h3></div></div>
+
+            <div class="card"><div class="img" style="background-image: url('image/2.png'); background-size: contain; background-position: center; background-repeat: no-repeat;"></div><div class="b"><small><em>สมัครเรียน</em> • 28 ก.ย. 2569</small><h3>ประกาศเกณฑ์การรับสมัครรอบ Portfolio ครั้งที่ 1 ประจำปีการศึกษา 2570 สำหรับนักเรียนสายสามัญและอาชีวะ</h3></div></div>
+
+            <div class="card"><div class="img" style="background-image: url('image/3.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat;"></div><div class="b"><small><em>ทุนวิจัย</em> • 15 ก.ย. 2569</small><h3>คณะอุตสาหกรรมเกษตรดิจิทัล มจพ. ปราจีนบุรี คว้ารางวัลงานวิจัยระดับชาติด้านนวัตกรรมอาหารยอดเยี่ยม</h3></div></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ================= COURSES ================= -->
+    <div class="page" id="courses">
+      <div class="ch">
+        <div class="wrap">
+          <h1>หลักสูตรที่เปิดสอน</h1>
+          <div class="bar">
+            <input class="search" id="q" placeholder="ค้นหาด้วยชื่อสาขา ตัวย่อคณะ (เช่น FITM) หรือคีย์เวิร์ด...">
+            <div class="chips" id="chips"></div>
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <div class="wrap">
+          <div id="courseList"></div>
+          <p class="empty" id="empty">ไม่พบสาขาที่ตรงกับเงื่อนไขที่เลือก (อาจยังไม่เปิดรับสมัครในรอบนี้)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= APPLY ================= -->
+    <div class="page" id="apply">
+      <div class="stepbar">
+        <div class="wrap">
+          <div class="steps">
+            <span class="stp on"><i>1</i>ข้อมูลส่วนตัว</span><u></u>
+            <span class="stp"><i>2</i>เลือกสาขาวิชา</span><u></u>
+            <span class="stp"><i>3</i>อัปโหลดเอกสาร</span><u></u>
+            <span class="stp"><i>4</i>ยืนยันข้อมูล</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="gray">
+        <div class="wrap">
+
+          <!-- แสดงเมื่อยังไม่ได้เข้าสู่ระบบ -->
+          <div class="gate" id="applyGate" hidden>
+            <h2>กรุณาเข้าสู่ระบบก่อนสมัครเรียน</h2>
+            <p>ระบบจะบันทึกแบบร่างใบสมัครของคุณไว้ และพิมพ์ใบสมัครได้ทุกเมื่อ</p>
+            <button class="btn" type="button" data-auth="login">เข้าสู่ระบบ / สมัครสมาชิก</button>
+          </div>
+
+          <form class="form" id="appForm" novalidate hidden>
+            <div class="fs">
+              <h3>ส่วนที่ 1: ข้อมูลส่วนตัวผู้สมัคร</h3>
+              <p class="draft-note" id="draftNote"></p>
+              <div class="g c3">
+                <div><label>คำนำหน้า *</label><select name="prefix" required><option>นาย</option><option>นางสาว</option><option>นาง</option></select></div>
+                <div><label>ชื่อจริง * (ภาษาไทย)</label><input name="fname" required placeholder="สมชาย"></div>
+                <div><label>นามสกุล * (ภาษาไทย)</label><input name="lname" required placeholder="รักเรียน"></div>
+              </div>
+              <div class="g c2">
+                <div><label>เลขบัตรประจำตัวประชาชน *</label><input name="cid" required pattern="[0-9]{13}" maxlength="13" inputmode="numeric" placeholder="1234567890123"></div>
+                <div><label>วัน/เดือน/ปีเกิด *</label><input name="dob" id="dob" type="date" required min="1950-01-01"></div>
+              </div>
+              <div class="g c2 flush">
+                <div><label>เบอร์โทรศัพท์มือถือ *</label><input name="phone" required pattern="[0-9\-]{9,12}" inputmode="tel" placeholder="081-234-5678"></div>
+                <div><label>อีเมลติดต่อ *</label><input name="email" type="email" required placeholder="somchai.r@gmail.com"></div>
+              </div>
+            </div>
+
+            <div class="fs">
+              <h3>ส่วนที่ 2: ที่อยู่ตามทะเบียนบ้าน</h3>
+              <div class="g">
+                <div><label>ที่อยู่ (บ้านเลขที่, หมู่, ถนน, ซอย) *</label><input name="addr" required placeholder="ระบุข้อมูลที่อยู่..."></div>
+              </div>
+              <div class="g c4 flush">
+                <div><label>ตำบล / แขวง *</label><input name="sub" required placeholder="ระบุ..."></div>
+                <div><label>อำเภอ / เขต *</label><input name="dist" required placeholder="ระบุ..."></div>
+                <div><label>จังหวัด *</label><input name="prov" required placeholder="ระบุ..."></div>
+                <div><label>รหัสไปรษณีย์ *</label><input name="zip" required pattern="[0-9]{5}" inputmode="numeric" placeholder="ระบุ..."></div>
+              </div>
+            </div>
+
+            <div class="fs">
+              <h3>ส่วนที่ 3: ประวัติการศึกษาเดิม</h3>
+              <div class="g c5 flush">
+                <div><label>สถานศึกษาเดิม (โรงเรียน/มหาวิทยาลัย) *</label><input name="school" required placeholder="ระบุชื่อสถาบันเดิม..."></div>
+                <div><label>ระดับการศึกษาที่จบ *</label><select name="level" required><option>มัธยมศึกษาปีที่ 6 (ม.6)</option><option>ปวช.</option><option>ปวส.</option><option>ปริญญาตรี</option></select></div>
+                <div><label>เกรดเฉลี่ยสะสม (GPAX) *</label><input name="gpax" type="number" step="0.01" min="0" max="4" required placeholder="0.00"></div>
+              </div>
+            </div>
+
+            <div class="fs">
+              <h3>ส่วนที่ 4: เลือกสาขาวิชาที่สมัคร</h3>
+              <div class="g flush">
+                <div><label>สาขาวิชา *</label><select name="major" id="major" required></select></div>
+              </div>
+            </div>
+
+            <div class="fs last">
+              <h3>ส่วนที่ 5: อัปโหลดเอกสารประกอบการสมัคร</h3>
+              <div class="g c4 flush" id="ups"></div>
+            </div>
+
+            <div class="acts">
+              <button class="btn dark" type="button" id="saveDraft">บันทึกแบบร่าง</button>
+              <div class="grp">
+                <button class="btn ghost" type="button" id="clearForm">ล้างข้อมูล</button>
+                <button class="btn" type="button" id="printBtn">พิมพ์ใบสมัคร</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <div class="wrap">
+      <div class="fg">
+        <div>
+          <div class="fl">
+            <!-- เปลี่ยนชื่อไฟล์ logo.png เป็นชื่อไฟล์รูปโลโก้ของคุณ -->
+            <img src="image/logo.png" alt="โลโก้ มจพ." style="height: 50px; width: auto;">
+            มจพ. วิทยาเขตปราจีนบุรี
+          </div>
+          <p class="about">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ วิทยาเขตปราจีนบุรี มุ่งมั่นผลิตบัณฑิตที่มีความรู้คู่คุณธรรม ด้านวิทยาศาสตร์ เทคโนโลยี และการจัดการ เพื่อพัฒนาอุตสาหกรรมในภูมิภาคตะวันออก</p>
+        </div>
+        <div>
+          <h5>ลิงก์ภายนอก</h5>
+          <ul><li>มจพ. กรุงเทพฯ</li><li>ระบบรับสมัคร TCAS</li><li>กองบริการการศึกษา</li><li>ระบบสารสนเทศนักศึกษา</li></ul>
+        </div>
+        <div>
+          <h5>ติดต่อเรา</h5>
+          <ul><li>129 หมู่ 21 ต.เนินหอม อ.เมือง จ.ปราจีนบุรี 25230</li><li>โทรศัพท์: 037-217-300 ต่อ 7010</li><li>อีเมล: admission@prachin.kmutnb.ac.th</li></ul>
+        </div>
+      </div>
+      <div class="cp">
+        <span>© 2026 King Mongkut's University of Technology North Bangkok (Prachinburi Campus). All rights reserved.</span>
+        <div class="so"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= LOGIN DIALOG ================= -->
+  <dialog id="authDialog">
+    <button class="x" type="button" id="authClose" aria-label="ปิด">&times;</button>
+    <h2 id="authTitle">เข้าสู่ระบบ</h2>
+    <p class="hint">เพื่อสมัครเรียนและบันทึกแบบร่างใบสมัคร</p>
+    <div class="tabs">
+      <button type="button" data-mode="login">เข้าสู่ระบบ</button>
+      <button type="button" data-mode="register">สมัครสมาชิก</button>
+    </div>
+    <form id="authForm">
+      <div class="field" id="nameField"><label>ชื่อ-นามสกุล</label><input name="name" autocomplete="name"></div>
+      <div class="field"><label>อีเมล</label><input name="email" type="email" required autocomplete="email"></div>
+      <div class="field"><label>รหัสผ่าน (อย่างน้อย 6 ตัวอักษร)</label><input name="password" type="password" minlength="6" required autocomplete="current-password"></div>
+      <p class="err" id="authErr" role="alert"></p>
+      <button class="btn" type="submit" id="authSubmit">เข้าสู่ระบบ</button>
+    </form>
+  </dialog>
+
+  <!-- ================= COURSE DETAIL DIALOG ================= -->
+  <dialog id="courseDialog" class="wide">
+    <button class="x" type="button" id="courseClose" aria-label="ปิด">&times;</button>
+    <div id="courseBody"></div>
+  </dialog>
+
+  <div id="toast" role="status"></div>
+
+  <!-- ใบสมัครสำหรับพิมพ์ (เติมข้อมูลตอนกดพิมพ์) -->
+  <div id="printSheet" class="ps"></div>
+
+<script>
+/* =========================================================
+   1. Utilities
+   ========================================================= */
+const $  = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const store = {
+  get: (k, d = null) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } },
+  set: (k, v) => localStorage.setItem(k, JSON.stringify(v)),
+  del: k => localStorage.removeItem(k)
+};
+
+let toastTimer;
+function toast(msg) {
+  const t = $('#toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2600);
+}
+
+/* =========================================================
+   2. Data  (วิทยาเขตปราจีนบุรี: FITM + BBI + AGRO)
+   ========================================================= */
+const ICONS = {
+  leaf: '<path d="M5 19C5 9 10 5 20 4c0 10-4 15-14 15zM5 19l8-8"/>',
+  chip: '<rect x="6" y="6" width="12" height="12" rx="1"/><rect x="10" y="10" width="4" height="4"/><path d="M9 2v3m6-3v3M9 19v3m6-3v3M2 9h3m-3 6h3m14-6h3m-3 6h3"/>',
+  briefcase: '<rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>'
+};
+const svgIcon = k => `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FF6900" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${ICONS[k]}</svg>`;
+
+// [รหัส, ไอคอน, ชื่อคณะ, คำอธิบาย]
+const DEPTS = [
+  ["FITM", "chip", "คณะเทคโนโลยีและการจัดการอุตสาหกรรม", "ผลิตบัณฑิตด้านเทคโนโลยีและการจัดการที่มีความรู้ความสามารถในการพัฒนาและบูรณาการองค์ความรู้ เพื่อตอบสนองความต้องการของภาคอุตสาหกรรม"],
+  ["BBI", "briefcase", "คณะบริหารธุรกิจและอุตสาหกรรมบริการ", "จัดการศึกษาในระดับปริญญาบริหารธุรกิจบัณฑิต สาขาการจัดการท่องเที่ยวและโรงแรม และสาขาบริหารธุรกิจอุตสาหกรรมและการค้า"],
+  ["AGRO", "leaf", "คณะอุตสาหกรรมเกษตรดิจิทัล", "พัฒนากำลังคนเพื่อรองรับเศรษฐกิจสมัยใหม่ ให้เข้าใจในระบบการผลิตและแปรรูปผลผลิตทางการเกษตร โดยประยุกต์ใช้เทคโนโลยีดิจิทัล"]
+];
+
+const FACULTIES = {
+  FITM: "คณะเทคโนโลยีและการจัดการอุตสาหกรรม (FITM)",
+  BBI: "คณะบริหารธุรกิจและอุตสาหกรรมบริการ (BBI)",
+  AGRO: "คณะอุตสาหกรรมเกษตรดิจิทัล (AGRO)"
+};
+
+// เพิ่มฟิลด์ระดับการศึกษาที่ Index 6 และรูปแบบที่ Index 7
+// [คณะ, ชื่อสาขา, คุณสมบัติ, ค่าเทอมถัดไป, ที่นั่งโควตาพื้นที่, ค่าเทอมแรก, ระดับการศึกษา, รูปแบบ]
+const COURSES = [
+  // FITM (ป.ตรี 4 ปี)
+  ["FITM", "เทคโนโลยีเครื่องกลและกระบวนการผลิต (MM)", "ม.6 / ปวช.", 19000, 20, 21700, "ป.ตรี 4 ปี", "ภาคปกติ"],
+  ["FITM", "เทคโนโลยีสารสนเทศ (IT)", "ม.6 / ปวช.", 19000, 20, 21700, "ป.ตรี 4 ปี", "ภาคปกติ"],
+  ["FITM", "คอมพิวเตอร์ช่วยออกแบบและบริหารงานก่อสร้าง (CA)", "ม.6 / ปวช.", 19000, 20, 21700, "ป.ตรี 4 ปี", "ภาคปกติ"],
+  ["FITM", "วิศวกรรมอุตสาหการและการจัดการ (IEM)", "ม.6 / ปวช.", 25000, 20, 27700, "ป.ตรี 4 ปี", "ภาคปกติ"],
+  ["FITM", "วิศวกรรมสารสนเทศและเครือข่าย (INE)", "ม.6 / ปวช.", 25000, 20, 27700, "ป.ตรี 4 ปี", "ภาคปกติ"],
+  ["FITM", "วิศวกรรมเกษตรและอาหาร (AFE)", "ม.6 / ปวช.", 19000, 20, 21700, "ป.ตรี 4 ปี", "ภาคปกติ"],
+  
+  // FITM (ป.ตรี ต่อเนื่อง 2 ปี)
+  ["FITM", "เทคโนโลยีสารสนเทศ (ITI)", "ปวส. ในสาขาที่เกี่ยวข้อง", 19000, 20, 21700, "ป.ตรี (ต่อเนื่อง 2 ปี)", "ภาคปกติ"],
+  ["FITM", "การจัดการอุตสาหกรรม (IMT)", "ปวส. ในสาขาที่เกี่ยวข้อง", 19000, 20, 21700, "ป.ตรี (ต่อเนื่อง 2 ปี)", "ภาคปกติ"],
+
+  // BBI (ป.ตรี 4 ปี)
+  ["BBI", "การจัดการอุตสาหกรรมท่องเที่ยวและโรงแรม (TH)", "ม.6 / ปวช.", 19000, 20, 21700, "ป.ตรี 4 ปี", "ภาคปกติ"],
+  ["BBI", "บริหารธุรกิจอุตสาหกรรมและการค้า (IBT)", "ม.6 / ปวช.", 19000, 20, 21700, "ป.ตรี 4 ปี", "ภาคปกติ"],
+  
+  // BBI (ป.ตรี เทียบโอน 2 ปี)
+  ["BBI", "การจัดการอุตสาหกรรมท่องเที่ยวและโรงแรม (เทียบโอน)", "ปวส. ในสาขาที่เกี่ยวข้อง", 19000, 20, 21700, "ป.ตรี (เทียบโอน 2 ปี)", "ภาคปกติ"],
+  ["BBI", "บริหารธุรกิจอุตสาหกรรมและการค้า (IBTT)", "ปวส. ในสาขาที่เกี่ยวข้อง", 19000, 20, 21700, "ป.ตรี (เทียบโอน 2 ปี)", "ภาคปกติ"],
+  
+  // BBI (ป.โท)
+  ["BBI", "บริหารธุรกิจอุตสาหกรรมและการค้า (M.B.A.)", "ป.ตรี ทุกสาขาวิชา", 35000, 10, 37700, "ป.โท", "ภาคปกติ"],
+
+  // AGRO (ป.ตรี 4 ปี)
+  ["AGRO", "เทคโนโลยีอาหารและการจัดการห่วงโซ่อุปทาน", "ม.6 ทุกกลุ่มสาระ / ปวช.", 19000, 80, 21700, "ป.ตรี 4 ปี", "ภาคปกติ"],
+  ["AGRO", "วิทยาศาสตร์การอาหารและโภชนาการ", "ม.6 ทุกกลุ่มสาระ / ปวช.", 19000, 80, 21700, "ป.ตรี 4 ปี", "ภาคปกติ"],
+  ["AGRO", "นวัตกรรมผลิตภัณฑ์อาหารและความงาม", "ม.6 ทุกกลุ่มสาระ / ปวช.", 19000, 60, 21700, "ป.ตรี 4 ปี", "ภาคปกติ"],
+  
+  // AGRO (ป.โท)
+  ["AGRO", "วิทยาศาสตร์และอุตสาหกรรมอาหาร", "ป.ตรี สาขาที่เกี่ยวข้อง", 35000, 15, 37700, "ป.โท", "ภาคปกติ"]
+];
+
+const UPLOADS = [
+  ["รูปถ่ายหน้าตรง (1 นิ้ว)", "ไฟล์ JPG, PNG ไม่เกิน 2MB"],
+  ["สำเนาบัตรประชาชน", "ลงชื่อสำเนาถูกต้อง (PDF/JPG)"],
+  ["ใบแสดงผลการเรียน (GPAX หรือ Transcript)", "ฉบับสมบูรณ์"],
+  ["Portfolio (ถ้ามี)", "รวมผลงานกิจกรรมที่ผ่านมา"]
+];
+
+/* =========================================================
+   3. Auth
+   ========================================================= */
+const Auth = {
+  USERS: 'kmutnb.users',
+  SESSION: 'kmutnb.session',
+
+  async hash(text) {
+    if (crypto?.subtle) {
+      const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+      return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+    return btoa(unescape(encodeURIComponent(text)));
+  },
+  current() {
+    const email = store.get(this.SESSION);
+    return email ? store.get(this.USERS, {})[email] || null : null;
+  },
+  async register({ name, email, password }) {
+    email = email.trim().toLowerCase();
+    const users = store.get(this.USERS, {});
+    if (users[email]) throw new Error('อีเมลนี้ถูกใช้สมัครสมาชิกแล้ว');
+    users[email] = { name: name.trim() || email, email, pass: await this.hash(password) };
+    store.set(this.USERS, users);
+    store.set(this.SESSION, email);
+  },
+  async login({ email, password }) {
+    email = email.trim().toLowerCase();
+    const u = store.get(this.USERS, {})[email];
+    if (!u || u.pass !== await this.hash(password)) throw new Error('อีเมลหรือรหัสผ่านไม่ถูกต้อง');
+    store.set(this.SESSION, email);
+  },
+  logout() { store.del(this.SESSION); }
+};
+
+let authMode = 'login';
+
+function setAuthMode(mode) {
+  authMode = mode;
+  const reg = mode === 'register';
+  $$('.tabs button').forEach(b => b.classList.toggle('on', b.dataset.mode === mode));$('#authTitle').textContent = reg ? 'สมัครสมาชิก' : 'เข้าสู่ระบบ';
+  $('#authSubmit').textContent = reg ? 'สมัครสมาชิก' : 'เข้าสู่ระบบ';
+  $('#nameField').hidden = !reg;
+  $('#authForm').elements.name.required = reg;
+  $('#authForm').elements.password.autocomplete = reg ? 'new-password' : 'current-password';
+  $('#authErr').textContent = '';
+}
+function openAuth(mode = 'login') { setAuthMode(mode); $('#authDialog').showModal(); }
+
+function renderAuthArea() {
+  const u = Auth.current();
+  $('#authArea').innerHTML = u
+    ? `<span class="user">สวัสดี, ${esc(u.name)}</span><button class="btn ghost sm" type="button" data-auth="logout">ออกจากระบบ</button>`
+    : `<button class="btn ghost sm" type="button" data-auth="login">เข้าสู่ระบบ</button>`;
+  const on = !!u;
+  $('#applyGate').hidden = on;
+  $('#appForm').hidden = !on;
+}
+
+/* =========================================================
+   4. Renderers (หน้าหลัก / หลักสูตร / ฟอร์มสมัคร)
+   ========================================================= */
+function renderDepts() {
+  $('#dept').innerHTML = DEPTS.map(d => `
+    <div class="card">
+      <div class="top"><span class="ic">${svgIcon(d[1])}</span><span class="code">${d[0]}</span></div>
+      <h3>${d[2]}</h3><p>${d[3]}</p>
+      <a href="#courses">ดูสาขาที่เปิดรับสมัคร ›</a>
+    </div>`).join('');
+}
+
+const filters = { fac: 'all', lvl: 'ป.ตรี', mode: 'ภาคปกติ' };
+const FILTER_GROUPS = [
+  ['fac',  [['all', 'ทุกคณะ'], ...Object.keys(FACULTIES).map(k => [k, k])]],
+  ['lvl',  [['ป.ตรี', 'ป.ตรี'], ['ป.โท', 'ป.โท']]],
+  ['mode', [['ภาคปกติ', 'ภาคปกติ'], ['ภาคพิเศษ', 'ภาคพิเศษ']]]
+];
+
+function renderChips() {
+  $('#chips').innerHTML = FILTER_GROUPS.map(([g, items]) =>
+    items.map(([v, label]) => `<span class="chip" data-g="${g}" data-v="${v}">${label}</span>`).join('')
+  ).join('');
+}
+
+function renderCourses() {
+  $$('.chip').forEach(c => c.classList.toggle('on', filters[c.dataset.g] === c.dataset.v));
+  const q = $('#q').value.trim().toLowerCase();
+  
+  let html = '', count = 0;
+
+  Object.keys(FACULTIES).forEach(k => {
+    if (filters.fac !== 'all' && filters.fac !== k) return;
+    
+    // กรองข้อมูลโดยใช้ startsWith เพื่อให้ "ป.ตรี" ครอบคลุมทั้ง ป.ตรี 4 ปี, ต่อเนื่อง, และเทียบโอน
+    const rows = COURSES.filter(c => {
+      const isMatchFac = c[0] === k;
+      const isMatchLvl = (c[6] || 'ป.ตรี 4 ปี').startsWith(filters.lvl);
+      const isMatchMode = (c[7] || 'ภาคปกติ') === filters.mode;
+      const isMatchQ = (c[0] + ' ' + FACULTIES[c[0]] + ' ' + c[1] + ' ' + c[2]).toLowerCase().includes(q);
+      return isMatchFac && isMatchLvl && isMatchMode && isMatchQ;
+    });
+
+    if (!rows.length) return;
+    count += rows.length;
+    html += `<div class="fac"><h2 class="fh">${FACULTIES[k]}</h2>` + rows.map(c => `
+      <div class="row">
+        <div class="m"><h4>สาขา${c[1]}</h4><em>${c[6]}</em><span>คุณสมบัติ: ${c[2]}</span></div>
+        <div class="num"><small>ค่าเทอม</small>${c[3].toLocaleString()} บ.</div>
+        <div class="num"><small>รับเข้าศึกษา</small>${c[4]} ที่นั่ง</div>
+        <button class="btn" type="button" data-course="${COURSES.indexOf(c)}">ดูรายละเอียด</button>
+      </div>`).join('') + '</div>';
+  });
+  $('#courseList').innerHTML = html;
+  $('#empty').style.display = count ? 'none' : 'block';
+}
+
+function renderMajorOptions() {
+  $('#major').innerHTML = '<option value="">— เลือกสาขาวิชา —</option>' +
+    Object.keys(FACULTIES).map(k => `<optgroup label="${FACULTIES[k]}">` +
+      COURSES.map((c, i) => c[0] === k ? `<option value="${i}">[${c[6]}] สาขา${c[1]}</option>` : '').join('') +
+    '</optgroup>').join('');
+}
+
+let photoData = null; 
+
+function renderUploads() {
+  const icon = '<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FF6900" stroke-width="1.8" stroke-linecap="round"><path d="M7 18a4 4 0 01-.5-8 5.5 5.5 0 0110.7 1A3.5 3.5 0 0117 18M12 21v-8m-3 3l3-3 3 3"/></svg>';
+  $('#ups').innerHTML = UPLOADS.map((u, i) => `
+    <label class="up">${icon}<b>${u[0]}</b><small>${u[1]}</small><span class="fn"></span><input type="file" hidden data-i="${i}"></label>`).join('');
+}
+
+/* ---------- รายละเอียดหลักสูตร (dialog) ---------- */
+let pendingMajor = null;
+
+function openCourse(i) {
+  const c = COURSES[i];
+  const lvlText = c[6] || 'ป.ตรี 4 ปี';
+  $('#courseBody').innerHTML = `
+    <h2>สาขา${c[1]}</h2>
+    <p class="hint">${FACULTIES[c[0]]}</p>
+    <dl class="dl">
+      <div><dt>ระดับ / รูปแบบ</dt><dd>${lvlText} • ${c[7] || 'ภาคปกติ'}</dd></div>
+      <div><dt>คุณสมบัติผู้สมัคร</dt><dd>${c[2]}</dd></div>
+      <div><dt>ค่าเทอม</dt><dd>เทอมแรก ${c[5].toLocaleString()} บาท • เทอมถัดไป ${c[3].toLocaleString()} บาท</dd></div>
+      <div><dt>รับเข้าศึกษา</dt><dd>${c[4]} ที่นั่ง</dd></div>
+      <div><dt>เอกสารที่ต้องใช้</dt><dd>${UPLOADS.map(u => u[0]).join(' • ')}</dd></div>
+      <div><dt>กำหนดการ</dt><dd>รับสมัครออนไลน์ 1 ก.ย. - 10 พ.ย. 2569 • สอบสัมภาษณ์ 28 พ.ย. 2569</dd></div>
+    </dl>
+    <button class="btn" type="button" data-apply="${i}">สมัครสาขานี้</button>`;
+  $('#courseDialog').showModal();
+}
+
+/* =========================================================
+   5. Application form: แบบร่าง + พิมพ์ใบสมัคร
+   ========================================================= */
+const form = $('#appForm');
+const draftKey = () => `kmutnb.draft.${Auth.current()?.email}`;
+
+function collect() { return Object.fromEntries(new FormData(form)); }
+
+function loadDraft() {
+  form.reset(); photoData = null;
+  $$('.up .fn').forEach(n => n.textContent = '');
+  const d = Auth.current() && store.get(draftKey());
+  if (d) Object.entries(d.values).forEach(([k, v]) => { if (form.elements[k]) form.elements[k].value = v; });
+  if (pendingMajor !== null && Auth.current()) { form.elements.major.value = pendingMajor; pendingMajor = null; }
+  $('#draftNote').textContent = d ? `โหลดแบบร่างที่บันทึกเมื่อ ${new Date(d.savedAt).toLocaleString('th-TH')}` : '';
+}
+
+function saveDraft(silent) {
+  const old = store.get(draftKey());
+  const appNo = old?.appNo || `KM${new Date().getFullYear() + 543}${Math.floor(100000 + Math.random() * 900000)}`;
+  store.set(draftKey(), { appNo, values: collect(), savedAt: Date.now() });
+  if (!silent) toast('บันทึกแบบร่างแล้ว');
+  return appNo;
+}
+
+function buildPrintSheet(appNo) {
+  const v = collect();
+  const c = COURSES[v.major];
+  const files = $$('#ups input').map((inp, i) => [UPLOADS[i][0], inp.files[0]?.name || 'ยังไม่ได้แนบ']);
+  const table = rows => `<table>${rows.map(([k, val]) => `<tr><th>${k}</th><td>${esc(val)}</td></tr>`).join('')}</table>`;
+
+  $('#printSheet').innerHTML = `
+    <div class="ps-head">
+      <img src="image/logo.png" alt="Logo" class="ps-logo">
+      <div class="ps-head-text">
+        <h1>ใบสมัครเข้าศึกษา ประจำปีการศึกษา 2570</h1>
+        <p>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ วิทยาเขตปราจีนบุรี</p>
+        <p>เลขที่ใบสมัคร: <b>${appNo}</b> &nbsp;|&nbsp; วันที่พิมพ์: ${new Date().toLocaleDateString('th-TH', { dateStyle: 'long' })}</p>
+      </div>
+      <div class="ps-photo">${photoData ? `<img src="${photoData}" alt="">` : 'รูปถ่าย<br>1 นิ้ว'}</div>
+    </div>
+    <h2>1. ข้อมูลส่วนตัว</h2>
+    ${table([
+      ['ชื่อ-นามสกุล', `${v.prefix}${v.fname}${v.lname}`],
+      ['เลขบัตรประชาชน', v.cid],
+      ['วัน/เดือน/ปีเกิด', new Date(v.dob + 'T00:00').toLocaleDateString('th-TH', { dateStyle: 'long' })],
+      ['เบอร์โทรศัพท์', v.phone], ['อีเมล', v.email]
+    ])}
+    <h2>2. ที่อยู่ตามทะเบียนบ้าน</h2>
+    ${table([['ที่อยู่', `${v.addr} ต.${v.sub} อ.${v.dist} จ.${v.prov}${v.zip}`]])}
+    <h2>3. ประวัติการศึกษา</h2>
+    ${table([['สถานศึกษาเดิม', v.school], ['ระดับการศึกษา', v.level], ['GPAX', v.gpax]])}
+    <h2>4. สาขาวิชาที่สมัคร</h2>
+    ${table([['ระดับ', c[6] || 'ป.ตรี 4 ปี'], ['คณะ', FACULTIES[c[0]]], ['สาขาวิชา', c[1]], ['ค่าเทอม', `${c[3].toLocaleString()} บาท`]])}
+    <h2>5. เอกสารประกอบการสมัคร</h2>
+    ${table(files)}
+    <div class="ps-sign">
+      <div><span></span>( ${esc(v.prefix + v.fname + ' ' + v.lname)} )<br>ผู้สมัคร</div>
+      <div><span></span>( ........................................ )<br>เจ้าหน้าที่รับสมัคร</div>
+    </div>`;
+}
+
+
+function printApplication() {
+  if (!form.reportValidity()) return toast('กรุณากรอกข้อมูลที่มี * ให้ครบและถูกต้อง');
+  buildPrintSheet(saveDraft(true));
+  window.print();
+}
+
+/* =========================================================
+   6. Router (hash)
+   ========================================================= */
+function route() {
+  const h = (location.hash || '#home').slice(1);
+  const p = document.getElementById(h) && $('#' + h).classList.contains('page') ? h : 'home';
+  $$('.page').forEach(e => e.classList.toggle('on', e.id === p));$$
+('nav a[data-n]').forEach(a => a.classList.toggle('on', a.dataset.n === p));
+  scrollTo(0, 0);
+}
+
+/* =========================================================
+   7. Events
+   ========================================================= */
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-auth]');
+  if (!b) return;
+  if (b.dataset.auth === 'login') return openAuth('login');
+  Auth.logout(); renderAuthArea(); loadDraft(); toast('ออกจากระบบแล้ว');
+});
+
+$('#courseList').onclick = e => {
+  const b = e.target.closest('[data-course]');
+  if (b) openCourse(+b.dataset.course);
+};
+$('#courseBody').onclick = e => {
+  const b = e.target.closest('[data-apply]');
+  if (!b) return;
+  pendingMajor = b.dataset.apply;
+  $('#courseDialog').close();
+  location.hash = '#apply';
+  if (Auth.current()) { form.elements.major.value = pendingMajor; pendingMajor = null; }
+  else openAuth('login'); 
+};
+$('#courseClose').onclick = () => $('#courseDialog').close(); $$('dialog').forEach(d => d.addEventListener('click', e => { if (e.target === d) d.close(); })); 
+
+$('.tabs').onclick = e => { const b = e.target.closest('button'); if (b) setAuthMode(b.dataset.mode); };
+$('#authClose').onclick = () => $('#authDialog').close();
+
+$('#authForm').onsubmit = async e => {
+  e.preventDefault();
+  const data = Object.fromEntries(new FormData(e.target));
+  try {
+    await Auth[authMode](data);
+    $('#authDialog').close(); e.target.reset();
+    renderAuthArea(); loadDraft();
+    toast(`ยินดีต้อนรับ ${Auth.current().name}`);
+  } catch (err) {
+    $('#authErr').textContent = err.message;
+  }
+};
+
+$('#chips').onclick = e => {
+  const c = e.target.closest('.chip');
+  if (!c) return;
+  filters[c.dataset.g] = c.dataset.v;
+  renderCourses();
+};
+$('#q').oninput = renderCourses;
+
+$('#ups').onchange = e => {
+  const inp = e.target, f = inp.files[0];
+  inp.parentElement.querySelector('.fn').textContent = f ? '✓ ' + f.name : '';
+  if (inp.dataset.i === '0') {
+    photoData = null;
+    if (f && f.type.startsWith('image/')) {
+      const r = new FileReader();
+      r.onload = () => photoData = r.result;
+      r.readAsDataURL(f);
+    }
+  }
+};
+
+$('#saveDraft').onclick = () => saveDraft();
+$('#printBtn').onclick = printApplication;
+$('#clearForm').onclick = () => {
+  if (!confirm('ล้างข้อมูลในฟอร์มและลบแบบร่างที่บันทึกไว้?')) return;
+  store.del(draftKey()); loadDraft(); toast('ล้างข้อมูลแล้ว');
+};
+form.onsubmit = e => e.preventDefault();
+
+/* =========================================================
+   8. Init
+   ========================================================= */
+renderDepts();
+renderChips();
+renderCourses();
+renderMajorOptions();
+renderUploads();
+$('#dob').max = new Date().toISOString().slice(0, 10); 
+renderAuthArea();
+loadDraft();
+addEventListener('hashchange', route);
+route();
+</script>
+</body>
+</html>
